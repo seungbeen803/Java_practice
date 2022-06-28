@@ -9,7 +9,7 @@ public class BufferedReaderExam {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         try{
             String aa = br.readLine();
-            System.out.println("aa");
+            System.out.println(aa);
         }catch (IOException e){}
     }
 }
