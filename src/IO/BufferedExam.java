@@ -1,8 +1,6 @@
 package IO;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.IOException;
+import java.io.*;
 
 public class BufferedExam {
     public static void main(String[] args) {
@@ -14,7 +12,6 @@ public class BufferedExam {
                 bo.write(aa);
             }
             bo.flush();
-        }catch (IOException e){
-        }
+        }catch (IOException ie){}
     }
 }
