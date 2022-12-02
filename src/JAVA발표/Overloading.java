@@ -19,7 +19,6 @@ public class Overloading {
         Add sum = new Add();
         // 오버로딩된 메서드를 호출할 경우 JVM은 매개값의 타입을 보고 메서드를 선택합니다.
         System.out.println(sum.plus(10, 20)); // int 타입의 plus() 메서드 실행
-        System.out.println(sum.plus(10.0, 20.0)); // double 타입의 plus() 메서드 실행
     }
 }
 
